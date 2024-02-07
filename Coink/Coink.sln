@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34525.116
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Coink.Api", "Coink.Api\Coink.Api.csproj", "{B79F6717-0507-47FF-975A-D0B37417BD0E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Coink.API", "Coink.API\Coink.API.csproj", "{6573E477-3813-497B-9A1F-4901BADA5511}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Coink.Core", "Coink.Core\Coink.Core.csproj", "{30D25E5B-BAE3-4358-A7A3-1DBD78B4997F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Coink.Infrastructure", "Coink.Infrastructure\Coink.Infrastructure.csproj", "{CADB3383-C118-44AC-8CFB-20C3BDC015D7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Coink.Infrastructure", "Coink.Infrastructure\Coink.Infrastructure.csproj", "{8519D70B-0B0E-4178-9915-DBCFCCD757E1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Coink.Core", "Coink.Core\Coink.Core.csproj", "{3A8D9EAC-1BE0-4A48-8E3A-416915C5B309}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,23 +15,23 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{B79F6717-0507-47FF-975A-D0B37417BD0E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B79F6717-0507-47FF-975A-D0B37417BD0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B79F6717-0507-47FF-975A-D0B37417BD0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B79F6717-0507-47FF-975A-D0B37417BD0E}.Release|Any CPU.Build.0 = Release|Any CPU
-		{30D25E5B-BAE3-4358-A7A3-1DBD78B4997F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{30D25E5B-BAE3-4358-A7A3-1DBD78B4997F}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{30D25E5B-BAE3-4358-A7A3-1DBD78B4997F}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{30D25E5B-BAE3-4358-A7A3-1DBD78B4997F}.Release|Any CPU.Build.0 = Release|Any CPU
-		{8519D70B-0B0E-4178-9915-DBCFCCD757E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{8519D70B-0B0E-4178-9915-DBCFCCD757E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{8519D70B-0B0E-4178-9915-DBCFCCD757E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{8519D70B-0B0E-4178-9915-DBCFCCD757E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6573E477-3813-497B-9A1F-4901BADA5511}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6573E477-3813-497B-9A1F-4901BADA5511}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6573E477-3813-497B-9A1F-4901BADA5511}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6573E477-3813-497B-9A1F-4901BADA5511}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CADB3383-C118-44AC-8CFB-20C3BDC015D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CADB3383-C118-44AC-8CFB-20C3BDC015D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CADB3383-C118-44AC-8CFB-20C3BDC015D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CADB3383-C118-44AC-8CFB-20C3BDC015D7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A8D9EAC-1BE0-4A48-8E3A-416915C5B309}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A8D9EAC-1BE0-4A48-8E3A-416915C5B309}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A8D9EAC-1BE0-4A48-8E3A-416915C5B309}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A8D9EAC-1BE0-4A48-8E3A-416915C5B309}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {93744865-0CBF-407D-903B-48EF9F09C09F}
+		SolutionGuid = {77B99BC4-7D27-45E1-A0BD-A586DA6303D9}
 	EndGlobalSection
 EndGlobal

@@ -1,36 +1,36 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\elect.EDWARD\\source\\repos\\Coink\\Coink.Core\\Coink.Core.csproj": {}
+    "F:\\Repositories\\Coink\\Coink\\Coink.Core\\Coink.Core.csproj": {}
   },
   "projects": {
-    "C:\\Users\\elect.EDWARD\\source\\repos\\Coink\\Coink.Core\\Coink.Core.csproj": {
+    "F:\\Repositories\\Coink\\Coink\\Coink.Core\\Coink.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\elect.EDWARD\\source\\repos\\Coink\\Coink.Core\\Coink.Core.csproj",
+        "projectUniqueName": "F:\\Repositories\\Coink\\Coink\\Coink.Core\\Coink.Core.csproj",
         "projectName": "Coink.Core",
-        "projectPath": "C:\\Users\\elect.EDWARD\\source\\repos\\Coink\\Coink.Core\\Coink.Core.csproj",
-        "packagesPath": "C:\\Users\\elect.EDWARD\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\elect.EDWARD\\source\\repos\\Coink\\Coink.Core\\obj\\",
+        "projectPath": "F:\\Repositories\\Coink\\Coink\\Coink.Core\\Coink.Core.csproj",
+        "packagesPath": "C:\\Users\\elect\\.nuget\\packages\\",
+        "outputPath": "F:\\Repositories\\Coink\\Coink\\Coink.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\elect.EDWARD\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\elect\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net8.0"
+          "net6.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net8.0": {
-            "targetAlias": "net8.0",
+          "net6.0": {
+            "targetAlias": "net6.0",
             "projectReferences": {}
           }
         },
@@ -41,8 +41,8 @@
         }
       },
       "frameworks": {
-        "net8.0": {
-          "targetAlias": "net8.0",
+        "net6.0": {
+          "targetAlias": "net6.0",
           "imports": [
             "net461",
             "net462",
@@ -59,7 +59,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }

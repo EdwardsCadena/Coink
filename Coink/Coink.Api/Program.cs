@@ -1,4 +1,5 @@
 using Coink.Core.Interfaces;
+using Coink.Infrastructure.Data;
 using Coink.Infrastructure.Repository;
 using Microsoft.EntityFrameworkCore;
 
@@ -22,6 +23,9 @@ builder.Services.AddDbContext<CoinkContext>(options =>
 
 //Injeccion de dependendecias
 builder.Services.AddTransient<IUserRepository, UserRepository>();
+builder.Services.AddTransient<IDepartmentRepository, DepartmentRepository>();
+builder.Services.AddTransient<ICountryRepository, CountryRepository>();
+builder.Services.AddTransient<IMunicipalityRepository, MunicipalityRepository>();
 
 var app = builder.Build();
 

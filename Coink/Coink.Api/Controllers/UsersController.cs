@@ -1,10 +1,13 @@
-﻿using Coink.Core.Interfaces;
+﻿using AutoMapper;
+using Coink.Core.DTOs;
+using Coink.Core.Entities;
+using Coink.Core.Interfaces;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
-namespace Coink.Api.Controllers
+namespace Coink.API.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
@@ -25,7 +28,7 @@ namespace Coink.Api.Controllers
         // Este método maneja las solicitudes GET a la ruta api/Users
         // Devuelve una lista de todos los usuarios
         [HttpGet]
-        [Authorize]
+        
         public async Task<ActionResult<IEnumerable<UserDTOs>>> GetUsers()
         {
             // Obtiene los usuarios de la base de datos usando el repositorio
@@ -41,7 +44,7 @@ namespace Coink.Api.Controllers
         // Este método maneja las solicitudes GET a la ruta api/Users/{id}
         // Devuelve un usuario específico basado en el ID proporcionado
         [HttpGet("{id}")]
-        [Authorize]
+        
         public async Task<ActionResult<UserDTOs>> GetUser(int id)
         {
             // Obtiene el usuario de la base de datos usando el repositorio
@@ -63,7 +66,7 @@ namespace Coink.Api.Controllers
         // Este método maneja las solicitudes POST a la ruta api/Users
         // Crea un nuevo usuario con los datos proporcionados
         [HttpPost]
-        [Authorize]
+        
         public async Task<ActionResult<UserDTOs>> PostUser(UserDTOs userDto)
         {
             // Mapea el DTO (Data Transfer Object) a una entidad User
@@ -79,7 +82,7 @@ namespace Coink.Api.Controllers
         // Este método maneja las solicitudes PUT a la ruta api/Users/{id}
         // Actualiza un usuario existente con los datos proporcionados
         [HttpPut("{id}")]
-        [Authorize]
+        
         public async Task<IActionResult> PutUser(int id, UserDTOs userDto)
         {
             // Mapea el DTO (Data Transfer Object) a una entidad User
@@ -98,7 +101,7 @@ namespace Coink.Api.Controllers
         // Este método maneja las solicitudes DELETE a la ruta api/Users/{id}
         // Elimina un usuario existente basado en el ID proporcionado
         [HttpDelete("{id}")]
-        [Authorize]
+        
         public async Task<IActionResult> DeleteUser(int id)
         {
             // Elimina el usuario de la base de datos usando el repositorio
